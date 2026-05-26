@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Praktijkopdrachten BOA - JS Legal Force</title>
@@ -18,7 +17,7 @@ body{background:#0a0f1e;display:flex;align-items:center;justify-content:center;m
 .orb-2{width:380px;height:380px;background:rgba(45,64,153,0.45);bottom:-100px;left:-80px;animation:f2 11s ease-in-out infinite;}
 @keyframes f1{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,40px)}}
 @keyframes f2{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,-30px)}}
-.card{position:relative;z-index:10;width:min(520px,96vw);background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:24px;padding:48px 44px;text-align:center;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);box-shadow:0 32px 80px rgba(0,0,0,0.6);animation:cardIn 0.8s cubic-bezier(0.34,1.56,0.64,1) both;}
+.card{position:relative;z-index:10;width:min(480px,96vw);background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:24px;padding:48px 44px;text-align:center;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);box-shadow:0 32px 80px rgba(0,0,0,0.6);animation:cardIn 0.8s cubic-bezier(0.34,1.56,0.64,1) both;}
 @keyframes cardIn{from{opacity:0;transform:translateY(40px) scale(0.92)}to{opacity:1;transform:translateY(0) scale(1)}}
 .corner{position:absolute;width:18px;height:18px;}
 .tl{top:16px;left:16px;border-top:2px solid rgba(138,154,181,0.5);border-left:2px solid rgba(138,154,181,0.5);border-radius:4px 0 0 0;}
@@ -34,7 +33,6 @@ body{background:#0a0f1e;display:flex;align-items:center;justify-content:center;m
 .brand{font-weight:900;font-size:1.85rem;color:#fff;letter-spacing:-0.02em;margin-bottom:4px;}
 .divider{width:48px;height:2px;background:linear-gradient(90deg,transparent,rgba(138,154,181,0.5),transparent);margin:16px auto;}
 .sub{font-size:0.71rem;color:rgba(138,154,181,0.7);font-weight:600;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:32px;}
-.btn-list{display:flex;flex-direction:column;gap:14px;width:100%;}
 .btn{position:relative;overflow:hidden;width:100%;background:linear-gradient(135deg,#1a2a5e,#2d4099);color:#fff;border:1px solid rgba(138,154,181,0.25);border-radius:14px;padding:18px 24px;font-family:'Outfit',sans-serif;font-weight:800;font-size:1.0rem;cursor:pointer;display:flex;align-items:center;justify-content:flex-start;gap:14px;box-shadow:0 4px 28px rgba(26,42,94,0.6);transition:transform 0.2s,box-shadow 0.2s;text-align:left;}
 .btn:hover{transform:translateY(-3px);box-shadow:0 10px 44px rgba(45,64,153,0.7);}
 .btn:active{transform:scale(0.98);}
@@ -45,7 +43,6 @@ body{background:#0a0f1e;display:flex;align-items:center;justify-content:center;m
 .btn-label{font-size:1.0rem;font-weight:800;line-height:1.2;}
 .btn-desc{font-size:0.72rem;font-weight:500;opacity:0.65;letter-spacing:0.02em;}
 .btn-arrow{margin-left:auto;flex-shrink:0;opacity:0.6;}
-.divider-list{width:100%;height:1px;background:linear-gradient(90deg,transparent,rgba(138,154,181,0.2),transparent);margin:4px 0;}
 </style>
 </head>
 <body>
@@ -67,7 +64,6 @@ body{background:#0a0f1e;display:flex;align-items:center;justify-content:center;m
 <div class="brand">JS Legal Force</div>
 <div class="divider"></div>
 <div class="sub">Praktijkopdrachten voor BOA&#39;s</div>
-<div class="btn-list">
 <button class="btn" onclick="window.open('https://jslegalforce.github.io/geweldsaanwending-praktijkopdracht/opdracht-index.html','_blank','width='+screen.width+',height='+screen.height)">
 <svg class="btn-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
 <div class="btn-meta">
@@ -76,16 +72,6 @@ body{background:#0a0f1e;display:flex;align-items:center;justify-content:center;m
 </div>
 <svg class="btn-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
 </button>
-<div class="divider-list"></div>
-<button class="btn" onclick="window.open('https://jslegalforce.github.io/geweldsaanwending-praktijkopdracht/praktijkopdracht-aanhouden-op-heterdaad.html','_blank','width='+screen.width+',height='+screen.height)">
-<svg class="btn-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-<div class="btn-meta">
-<span class="btn-label">Aanhouden op heterdaad</span>
-<span class="btn-desc">Beoordeling aanhouding &amp; bevoegdheden</span>
-</div>
-<svg class="btn-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
-</button>
-</div>
 </div>
 </body>
 </html>
